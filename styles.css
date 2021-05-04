@@ -328,6 +328,11 @@ figcaption {
   margin: 0 1em;
 } */
 
+iframe {
+  width: 60ch;
+  height: 33.75ch;
+}
+
 img, iframe {
   max-width: 100%;
 }
