@@ -238,7 +238,7 @@ footer li:nth-child(3) {
 
 .material-icons {
   font-size: 1.125rem;
-  vertical-align: -22%;
+  vertical-align: -24%;
 }
 
 li:nth-child(3) .material-icons {
@@ -343,7 +343,7 @@ small {
   text-align: center;
 }
 
-.medium, .no-flex header + p::first-letter {
+.medium, header p::first-letter, section.no-flex header + p::first-letter {
   font-weight: 500;
 }
 
