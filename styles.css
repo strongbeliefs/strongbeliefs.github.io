@@ -16,17 +16,16 @@ h1, h3, article h2 {
   font: 1.75em/1.1 Lobster, Helvetica, sans-serif;
 }
 
-h1, section h2 {
-  padding: 0.5em 0;
-}
-
-h1 a, nav ul a, h3 a {
-  display: block;
+h1 {
+  padding: 0.5em 5%;
 }
 
 h1 a {
-  padding: 0 5%;
   color: silver;
+}
+
+nav ul a, h3 a {
+  display: block;
 }
 
 nav, section h2, article footer {
@@ -88,6 +87,7 @@ section.flex, .no-flex {
 
 section h2 {
   font-size: 1.25em;
+  padding: 0.5em 0;
 }
 
 .flex-header, blockquote {
@@ -324,7 +324,7 @@ figcaption {
 
 iframe {
   width: 60ch;
-  height: 33.75ch;
+  height: 33.75ch; /* 16:9 */
 }
 
 img, iframe {
