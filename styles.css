@@ -120,9 +120,11 @@ h3, article h2 {
   border-radius: 10px 10px 0 0;
 }
 
-.no-flex h3 {
+.no-flex h3.beetle {
   margin-top: 1.5em;
   border: none;
+  background: transparent;
+  text-shadow: 1px 1px #000;
 }
 
 h3 a, article h2 {
