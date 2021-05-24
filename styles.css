@@ -125,6 +125,10 @@ h3, article h2 {
   border: none;
 }
 
+.beginnings-inverse {
+  color: green;
+}
+
 .beetle-inverse {
   color: #000;
   text-shadow: -1px 1px gold;
@@ -331,9 +335,9 @@ img, iframe {
   max-width: 100%;
 }
 
-p a {
+/* p a {
   color: royalblue;
-}
+} */
 
 p a:hover {
   text-decoration: underline;
