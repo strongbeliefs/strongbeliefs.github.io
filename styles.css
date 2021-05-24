@@ -127,12 +127,12 @@ h3, article h2 {
 
 .beetle-inverse {
   color: #000;
-  text-shadow: 1px 1px gold;
+  text-shadow: -1px 1px gold;
 }
 
 .windy-inverse {
   color: cadetblue;
-  text-shadow: 1px 1px #fff;
+  text-shadow: -1px 1px #fff;
 }
 
 h3 a, article h2 {
