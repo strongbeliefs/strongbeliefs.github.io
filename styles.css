@@ -273,11 +273,11 @@ footer li:nth-child(3) a {
   line-height: 1.125rem;
 }
 
-/* .unavailable {
+.unavailable {
   color: rgba(38, 36, 36, 0.2);
-} */
+}
 
-footer li:nth-child(3) a { /* , footer li:nth-child(3) .unavailable:hover */
+footer li:nth-child(3) a, footer li:nth-child(3) .unavailable:hover {
   border-color: transparent;
 }
 
