@@ -340,7 +340,7 @@ p a:hover {
 }
 
 footer p {
-  margin: 2rem 5%;
+  margin: 4rem 5% 2rem;
   font-size: 0.625em;
   line-height: 1.2;
 }
@@ -364,6 +364,15 @@ b, .semi-bold {
 .italic {
   font-style: italic;
 }
+
+/* .logo.flex {
+  margin: 1em;
+  justify-content: center;
+} */
+
+/* .logo img {
+  width: 1.8125em;
+} */
 
 @media screen and (min-width: 12.5625rem) { /* 201px */
   .flex footer li:first-child, .flex footer li:nth-child(2) {
