@@ -126,17 +126,17 @@ h3, article h2 {
 }
 
 .beginnings-inverse {
-  color: green;
+  color: #236F21; /* natural green */
 }
 
 .beetle-inverse {
-  color: #000;
-  text-shadow: -1px 1px gold;
+  color: #18130E; /* vintage black */
+  text-shadow: -1px 1px #FFD131; /* gangster gold */
 }
 
 .windy-inverse {
-  color: cadetblue;
-  text-shadow: -1px 1px #fff;
+  color: #006994; /* sea blue */
+  text-shadow: -1px 1px #F4FAFC; /* white cloud */
 }
 
 h3 a, article h2 {
@@ -168,11 +168,11 @@ h3 a, article h2 {
 }
 
 .berries a, .berries {
-  color: silver;
+  color: #DADADA; /* gentle gray */
 }
 
 .berries {
-  background: midnightblue;
+  background: #4F86F7; /* blueberry */
 }
 
 .endless a, .endless {
@@ -184,11 +184,11 @@ h3 a, article h2 {
 }
 
 .windy a, .windy {
-  color: #fff;
+  color: #F4FAFC; /* white cloud */
 }
 
 .windy {
-  background: cadetblue;
+  background: #006994; /* sea blue */
 }
 
 .devotion a, .devotion {
@@ -200,19 +200,19 @@ h3 a, article h2 {
 }
 
 .beetle a, .beetle {
-  color: gold;
+  color: #FFD131; /* gangster gold */
 }
 
 .beetle {
-  background: #000;
+  background: #18130E; /* vintage black */
 }
 
 .beginnings a, .beginnings {
-  color: darkorange;
+  color: #FF8200; /* vivid orange */
 }
 
 .beginnings {
-  background: green;
+  background: #236F21; /* natural green */
 }
 
 .flex p {
