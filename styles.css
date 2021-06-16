@@ -91,7 +91,7 @@ section h2 {
 }
 
 .flex-header {
-  margin: 0 1em 1em;
+  margin: 0 1em 0.625em;
   flex: 0 1 25em; /* 400px */
 }
 
