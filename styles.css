@@ -28,7 +28,7 @@ nav ul a, h3 a {
   display: block;
 }
 
-nav, section h2, article footer {
+nav, section h2, article footer, .flex header + p {
   font: 1em/1.2 Oswald, Helvetica, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -103,7 +103,7 @@ blockquote {
   margin: 0 1em;
 }
 
-.flex-column, .flex header + p {
+.flex-column {
   margin: 1em;
 }
 
@@ -268,7 +268,7 @@ footer, footer li:nth-child(2) a {
   color: dimgray;
 }
 
-section h2, footer li a, footer li:nth-child(2) a:hover {
+section h2, footer li a, footer li:nth-child(2) a:hover, .flex header + p {
   color: #262424;
 }
 
@@ -372,6 +372,25 @@ b, .semi-bold {
 
 .italic {
   font-style: italic;
+}
+
+.flex header + p {
+  font-size: 4em;
+  margin: 1rem;
+  font-weight: 200;
+  opacity: 0.15;
+}
+
+article.flex:first-of-type {
+  justify-content: space-between;
+}
+
+article.flex:first-of-type:hover {
+  box-shadow: 0 0 3px;
+}
+
+article.flex:first-of-type footer {
+  margin-top: 1rem;
 }
 
 /* .logo.flex {
