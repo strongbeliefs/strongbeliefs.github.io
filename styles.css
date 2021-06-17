@@ -313,8 +313,8 @@ div {
 header p::first-letter, section.no-flex header + p::first-letter {
   float: left;
   margin-right: 5px;
-  font-size: 3.75em;
-  line-height: 0.9;
+  font-size: 3.625em;
+  line-height: 0.94;
 }
 
 figure, .no-flex footer {
