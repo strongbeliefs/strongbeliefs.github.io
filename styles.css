@@ -39,7 +39,7 @@ ul {
 }
 
 nav ul {
-  margin: 0 0 1.25em;
+  margin: 0 0 1.625em;
 }
 
 nav ul, .flex-column {
@@ -121,8 +121,12 @@ h3, article h2 {
   border-radius: 10px 10px 0 0;
 }
 
+.no-flex h2, .no-flex h3 {
+  margin-bottom: 1.28125rem; /* 20.5px */
+}
+
 .no-flex h3 {
-  margin-top: 1.5em;
+  margin-top: 2.96875rem; /* 47.5px */
   border: none;
 }
 
@@ -309,8 +313,8 @@ div {
 header p::first-letter, section.no-flex header + p::first-letter {
   float: left;
   margin-right: 5px;
-  font-size: 3.6em;
-  line-height: 0.92;
+  font-size: 3.75em;
+  line-height: 0.9;
 }
 
 figure, .no-flex footer {
