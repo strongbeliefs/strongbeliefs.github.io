@@ -121,12 +121,12 @@ h3, article h2 {
   border-radius: 10px 10px 0 0;
 }
 
-.no-flex h2, .no-flex h3 {
+.no-flex h2 {
   margin-bottom: 1.34375rem; /* 21.5px */
 }
 
 .no-flex h3 {
-  margin-top: 2.96875rem; /* 47.5px */
+  margin: 2.96875rem 0 1.28125rem; /* 47.5px 20.5px */
   border: none;
 }
 
