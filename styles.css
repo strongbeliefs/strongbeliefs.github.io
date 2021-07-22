@@ -344,7 +344,7 @@ p a:hover {
   text-decoration: underline;
 }
 
-address span {
+address span, em {
   font-style: normal;
 }
 
@@ -370,7 +370,7 @@ b, .semi-bold {
   font-weight: 600;
 }
 
-.italic {
+.italic, span[lang] {
   font-style: italic;
 }
 
