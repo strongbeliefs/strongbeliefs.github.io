@@ -136,12 +136,12 @@ h3, article h2 {
 
 .beetle-inverse {
   color: #18130E; /* vintage black */
-  text-shadow: -1px 1px #FFD131; /* gangster gold */
+  /* text-shadow: -1px 1px #FFD131;  gangster gold  */
 }
 
 .windy-inverse {
-  color: #006994; /* sea blue */
-  text-shadow: -1px 1px #F4FAFC; /* white cloud */
+  color: #006994;  /* sea blue */
+  /* text-shadow: -1px 1px #F4FAFC;  white cloud  */
 }
 
 h3 a, article h2 {
@@ -342,6 +342,10 @@ img, iframe {
 
 p a:hover {
   text-decoration: underline;
+}
+
+address span {
+  font-style: normal;
 }
 
 footer p {
