@@ -340,10 +340,6 @@ img, iframe {
   max-width: 100%;
 }
 
-p a {
-  font-weight: 500;
-}
-
 p a:hover {
   text-decoration: underline;
 }
@@ -366,7 +362,7 @@ small {
   text-align: center;
 }
 
-.medium, header p::first-letter, section.no-flex header + p::first-letter {
+.medium, header p::first-letter, section.no-flex header + p::first-letter, p a {
   font-weight: 500;
 }
 
