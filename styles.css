@@ -340,6 +340,10 @@ img, iframe {
   max-width: 100%;
 }
 
+p a {
+  font-weight: 500;
+}
+
 p a:hover {
   text-decoration: underline;
 }
