@@ -377,8 +377,8 @@ b, .semi-bold {
 .flex header + p {
   font-size: 4em;
   margin: 1rem;
-  font-weight: 200;
-  opacity: 0.15;
+  font-weight: 700;
+  opacity: 0.1;
 }
 
 article.soon {
