@@ -268,7 +268,7 @@ footer, footer li:nth-child(2) a {
   color: dimgray;
 }
 
-section h2, footer li a, footer li:nth-child(2) a:hover, .flex header + p {
+section h2, footer li a, footer li:nth-child(2) a:hover {
   color: #262424;
 }
 
@@ -378,7 +378,6 @@ b, .semi-bold {
   font-size: 4em;
   margin: 1rem;
   font-weight: 700;
-  opacity: 0.1;
 }
 
 article.soon {
