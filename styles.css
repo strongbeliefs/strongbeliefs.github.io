@@ -375,7 +375,7 @@ b, .semi-bold {
 }
 
 .flex header + p {
-  font-size: 4em;
+  font-size: 2.5em;
   margin: 1rem;
   font-weight: 700;
 }
