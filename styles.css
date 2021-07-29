@@ -99,7 +99,7 @@ article.flex header {
   line-height: 1;
 }
 
-blockquote {
+.flex blockquote {
   margin: 0 1em;
 }
 
@@ -354,6 +354,10 @@ footer p {
   line-height: 1.2;
 }
 
+.no-topmargin {
+  margin-top: 0;
+}
+
 small {
   font-size: inherit;
 }
@@ -370,7 +374,7 @@ b, .semi-bold {
   font-weight: 600;
 }
 
-.italic, span[lang] {
+.italic { /* , span[lang] */
   font-style: italic;
 }
 
@@ -380,17 +384,17 @@ b, .semi-bold {
   font-weight: 700;
 }
 
-article.soon {
+/* article.soon {
   justify-content: space-between;
-}
+} */
 
 article.soon:hover {
   box-shadow: 0 0 2px;
 }
 
-article.soon footer {
+/* article.soon footer {
   margin-top: 1rem;
-}
+} */
 
 /* .logo.flex {
   margin: 1em;
