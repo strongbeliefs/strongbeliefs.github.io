@@ -1,9 +1,9 @@
 html {
-  background: seashell;
+  background: snow;
 }
 
 body {
-  font: 1em/1.7 Lora, serif;
+  font: 1em/1.7 "Libre Franklin", Helvetica, sans-serif;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
 }
@@ -12,12 +12,13 @@ body, h1, h2, h3, article footer ul, figure, figcaption p, figcaption blockquote
   margin: 0;
 }
 
-h1, h3, article h2 {
-  font: 1.75em/1.1 Lobster, Helvetica, sans-serif;
+h1, section h2, h3, article h2 {
+  font: 1.375em/1.1 "Poller One", Helvetica, sans-serif;
+  /* letter-spacing: 0.03em; */
 }
 
 h1 {
-  padding: 0.5em 5%;
+  padding: 0.75em 5%;
 }
 
 h1 a {
@@ -28,10 +29,13 @@ nav ul a, h3 a {
   display: block;
 }
 
-nav, section h2, article footer, .flex header + p {
-  font: 1em/1.2 Oswald, Helvetica, sans-serif;
-  letter-spacing: 0.03em;
+nav, article footer { /* , .flex header + p */
+  font: 1em/1.2 Arsenal, Helvetica, sans-serif;
 }
+
+/* nav, article footer, .flex header + p {
+  letter-spacing: 0.03em;
+} */
 
 ul {
   list-style: none;
@@ -56,7 +60,7 @@ nav ul, .flex-column {
 }
 
 nav ul a {
-  padding: 0.5em 0.5em; /* 0.5em 1em; */
+  padding: 0.5em 0.25em; /* 0.5em 1em; */
 }
 
 nav ul a, small {
@@ -85,9 +89,13 @@ section.flex, .no-flex {
   margin: 0 auto;
 }
 
+h3, article h2 {
+  font-size: 1.125em;
+}
+
 section h2 {
-  font-size: 1.25em;
-  padding: 0.5em 0;
+  font-size: 1.125em;
+  padding: 0.75rem 0;
 }
 
 .flex-header {
@@ -97,6 +105,10 @@ section h2 {
 
 article.flex header {
   line-height: 1;
+}
+
+.no-flex blockquote {
+  font-weight: 500;
 }
 
 .flex blockquote {
@@ -112,11 +124,10 @@ article.flex header {
   max-width: 25em; /* 400px */
   flex-flow: column;
   border-radius: 10px;
-  background: linen;
+  /* background: whitesmoke; */
 }
 
 h3, article h2 {
-  font-size: 1.5em;
   border-bottom: solid 3px;
   border-radius: 10px 10px 0 0;
 }
@@ -145,7 +156,7 @@ h3, article h2 {
 }
 
 h3 a, article h2 {
-  padding: 1em 1rem;
+  padding: 1.25em 1rem;
 }
 
 .mister a, .mister {
@@ -226,16 +237,12 @@ h3 a, article h2 {
 
 article footer {
   margin: auto 0 0 1rem;
-  font-size: 0.75em;
+  font-size: 0.875em;
 }
 
 footer ul.flex {
   justify-content: flex-start;
   align-items: baseline;
-}
-
-footer li {
-  font-weight: 300;
 }
 
 .flex footer li {
@@ -247,12 +254,12 @@ footer li:first-child {
   margin: 0 0.25em 0.25em 0;
 }
 
-footer li:nth-child(3), figcaption {
+figcaption {
   font-size: 0.875rem;
 }
 
-footer li:nth-child(3) {
-  font-weight: 400;
+.semi-bold, p a, footer li:nth-child(3) {
+  font-weight: 700;
 }
 
 .material-icons {
@@ -261,7 +268,7 @@ footer li:nth-child(3) {
 }
 
 li:nth-child(3) .material-icons {
-  vertical-align: -18%;
+  vertical-align: -21%;
 }
 
 footer, footer li:nth-child(2) a {
@@ -269,7 +276,7 @@ footer, footer li:nth-child(2) a {
 }
 
 section h2, footer li a, footer li:nth-child(2) a:hover {
-  color: #262424;
+  color: #262525;
 }
 
 section h2, footer li:nth-child(3) a {
@@ -278,6 +285,7 @@ section h2, footer li:nth-child(3) a {
 }
 
 footer li:nth-child(3) a {
+  font-size: 1rem;
   padding: 0.25em 0;
   line-height: 1.125rem;
 }
@@ -291,7 +299,7 @@ footer li:nth-child(3) a, footer li:nth-child(3) .unavailable:hover {
 }
 
 footer li:nth-child(3) a:hover {
-  border-color: #262424;
+  border-color: #262525;
 }
 
 article.flex:hover {
@@ -313,8 +321,10 @@ div {
 header p::first-letter, section.no-flex header + p::first-letter {
   float: left;
   margin-right: 5px;
-  font-size: 3.5625em;
-  line-height: 0.93;
+  font-size: 3.4em;
+  margin-top: 0.1em;
+  line-height: 0.8;
+  /* margin-top: 0.1em; */
 }
 
 figure, .no-flex footer {
@@ -351,6 +361,7 @@ address span, em {
 footer p {
   margin: 4rem 5% 2rem;
   font-size: 0.625em;
+  font-weight: 200;
   line-height: 1.2;
 }
 
@@ -366,11 +377,7 @@ small {
   text-align: center;
 }
 
-.medium, header p::first-letter, section.no-flex header + p::first-letter, p a {
-  font-weight: 500;
-}
-
-b, .semi-bold {
+b, header p::first-letter, section.no-flex header + p::first-letter {
   font-weight: 600;
 }
 
@@ -378,11 +385,11 @@ b, .semi-bold {
   font-style: italic;
 }
 
-.flex header + p {
+/* .flex header + p {
   font-size: 2.5em;
   margin: 1rem;
   font-weight: 700;
-}
+} */
 
 /* article.soon {
   justify-content: space-between;
