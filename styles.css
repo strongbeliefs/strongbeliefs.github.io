@@ -275,7 +275,7 @@ section h2, footer li:nth-child(3) a {
 
 footer li:nth-child(3) a {
   padding: 0.25em 0;
-  line-height: 1.125rem; /* it may not make any difference. CONFIRM */
+  /* line-height: 1.125rem; */
 }
 
 .unavailable {
